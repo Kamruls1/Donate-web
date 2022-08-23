@@ -1,28 +1,27 @@
-*{
-    font-family: sans-serif;
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
-.sec-1{
-    background-image:url(/images/donation8.jpg);
+.help-poor{
+    background-image:linear-gradient(rgba(158, 156, 156, 0.137),rgb(0, 0, 0)),url(images/donation5.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
-.help-poor{
-    color: white;
     text-align: center;
-    position: absolute;
-    margin-top: 100px;
-    padding: 70px;
+    color: white;
+    position: relative;
+    padding-top: 50px;
+    
 }
 h1{
     font-size: 60px;
 }
 .link {
-    margin-top: 30px;
+    margin-top: 50px;
 }
-a{
+.link a{
     text-decoration: none;
     color: white;
     background-color: rgb(252, 86, 86);
@@ -35,26 +34,169 @@ a:hover{
     background: none;
 }
 h2{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
 }
 .donate-today{
     text-align: center;
+    margin-top: 50px;
 }
 .amount{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .amount li{
     list-style: none;
     margin: 20px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     padding: 30px 10px;
+    color: rgb(167, 166, 166);
 }
-.color{
+.amount .color{
     border: 2px solid rgb(238, 64, 64);
     background-color:rgb(238, 217, 217);
     border-radius: 5px;
+    color: rgb(238, 64, 64);
+    
+}
+.donate-today input{
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid silver;
+    padding: 15px; 
+}
+::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
+.donet-submit{
+    margin-top: 40px;
+}
+.donet-submit a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(252, 86, 86);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.donet-submit a:hover{
+ background: none;
+ color: black;
+ font-weight: 700;
+}
+.sec-3{
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-plan{
+    display: flex;
+    margin: 10px 50px;
+}
+.donate-plan div{
+    margin: 30px;
+    border-radius: 10px;
+    padding: 50px 10px;
+    text-align: left;
+}
+
+.food{
+    background-color: blanchedalmond;
+}
+.family{
+    background-color: rgb(186, 247, 226);
+}
+.shelter{
+    background-color: rgb(184, 243, 223);
+}
+.donate-plan div h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hungry{
+    background-image:linear-gradient(rgba(0, 0, 255, 0.651),rgba(0, 255, 255, 0.63));
+    display: flex;
+    padding:50px 40px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+
+}
+.hungry button{
+    border: none;
+    background-image: linear-gradient(orange,red);
+    padding: 10px;
+    width: 30%;
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hungry button:hover{
+    border: 2px solid black;
+    color: black;
+}
+.hungry img{
+    width: 90%;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 20px rgb(61, 64, 66);
+}
+.half-width{
+    width: 50%;
+    margin-left: 20px;
+}
+.updates{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mail-box{
+    background-color: antiquewhite;
+    padding:70px 0px ;
+    margin: 10px 20%;
+    border-radius: 5px;
+    
+}
+.mail-box input{
+ border: none;
+ width: 30%;
+ background-color: silver;
+ padding: 15px;
+ border-radius: 5px;
+}
+.mail-box button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(243, 63, 63);
+    padding: 15px;
+    width: 15%;  
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.mail-box button:hover{
+    color: black;
+    background-image: linear-gradient(aqua,rgb(169, 233, 233));
+}
+footer{
+background-color: black;
+text-align: center;
+padding: 20px;
+}
+.footer h3{
+color: yellow;
+font-family: 'Lobster', cursive;
+font-size: 35px;
+}
+.footer small{
+    color: white;
 }
